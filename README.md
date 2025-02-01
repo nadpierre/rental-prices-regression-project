@@ -12,6 +12,8 @@ The dataset was obtained from [rentfaster.ca](https://www.rentfaster.ca).
 .
 ├── Data
 │   ├── canada_rent.csv
+│   ├── cleaned_data.csv
+│   ├── data_with_postal_code.csv
 │   └── preprocessed_data.pkl
 ├── DataAnalysis.ipynb
 ├── DataModeling.ipynb
