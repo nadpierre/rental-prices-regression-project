@@ -22,7 +22,6 @@ The dataset was obtained from [rentfaster.ca](https://www.rentfaster.ca).
 ```
 ## Libraries used
 - Geopy
-- Joblib
 - Matplotlib
 - Numpy
 - Pandas
