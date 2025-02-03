@@ -26,10 +26,10 @@ When doing the [exploratory data analysis](DataAnalysis.ipynb), the thing that s
 
 To simplify the model, one feature was kept for the location, which is the 3 first characters of the postal code, so the neighbourhood is accounted for.
 
-In the [feature engineering and data preprocessing](DataPreprocessing.ipynb) phase, the categorical variables were encoded with One Hot Encoding. The postal codes were encoded with Frequency Encoding, so the neighbourhoods with the most ads would have more weight in the price prediction. Also, 10 features were selected out of 17 using the Mutual Information Regression.
+In the [feature engineering and data preprocessing](DataPreprocessing.ipynb) phase, the categorical variables were encoded with One Hot Encoding. The postal codes were encoded with Frequency Encoding, so the neighbourhoods with the most ads would have more weight in the price prediction.
 
-After testing different regression models, a model with the target variable transformed was chosed. The R-squared of the model is 0.4262 and the RMSE of 0.2777. The data modeling can be found [here](DataModeling.ipynb).
+After testing different regression models, a regularized polynomial model was chosen. The R-squared of the model is 0.4376 and the RMSE of 549.2872. The data modeling can be found [here](DataModeling.ipynb).
 
 ## Future work
 
-The model could have performed better if another machine learning algorithm was used or if the analysis and modeling was made for one city. Even analyzing one province could have been better.
+The model could have performed better if another machine learning algorithm was used or if the analysis and modeling was made for one city only.
