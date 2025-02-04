@@ -28,7 +28,7 @@ To simplify the model, one feature was kept for the location, which is the 3 fir
 
 In the [feature engineering and data preprocessing](DataPreprocessing.ipynb) phase, the categorical variables were encoded with One Hot Encoding. The postal codes were encoded with Frequency Encoding, so the neighbourhoods with the most ads would have more weight in the price prediction.
 
-After testing different regression models, a regularized polynomial model was chosen. The R-squared of the model is 0.4376 and the RMSE of 549.2872. The data modeling can be found [here](DataModeling.ipynb).
+After testing different regression models, a regularized polynomial model was chosen. The R-squared of the model is 0.4440 and the RMSE of 526.5882. The data modeling can be found [here](DataModeling.ipynb).
 
 ## Future work
 
